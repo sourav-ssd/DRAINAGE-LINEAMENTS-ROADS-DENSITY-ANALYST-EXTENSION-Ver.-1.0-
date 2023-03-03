@@ -1,0 +1,218 @@
+/3.1
+(Extension.1
+	Name:	"Drainage / Lineament / Road / Density Analyst Extension(1.0)"
+	FirstRootClassName:	"List"
+	Roots:	2
+	Roots:	3
+	Roots:	12
+	Roots:	13
+	Roots:	14
+	Version:	31
+	About:	"This is an extension to prepare density map of linear features like drainage, lineament, road, canal etc. Any suggestions: saraffes@rurkiu.ernet.in"
+	InstallScript:	15
+	UninstallScript:	16
+	ExtVersion:	1
+)
+
+(List.2
+)
+
+(List.3
+	Child:	4
+)
+
+(List.4
+	Child:	5
+	Child:	9
+	Child:	11
+)
+
+(List.5
+	Child:	6
+	Child:	7
+	Child:	8
+)
+
+(AVStr.6
+	S:	"View"
+)
+
+(AVStr.7
+	S:	"ButtonBar"
+)
+
+(AVStr.8
+	S:	"new_linden"
+)
+
+(Butn.9
+	Help:	"Drainage/Lineament/Road Density Analyst//This button helps to prepare density map of linear features like drainage, lineament, road etc."
+	Icon:	10
+	Click:	"new_linden"
+)
+
+(AVIcon.10
+	Name:	"linden1.tif"
+	Data:	4e442049 6d616765 00010012 00120000 
+	Data:	03ccffff 00ffff00 ffff00ff ff00ffff 
+	Data:	00ffff00 ffff00ff ff00ffff 00ffff00 
+	Data:	ffff00ff ff00ffff 00ffff00 ffff00ff 
+	Data:	ff00ffff 00ffff00 ffff00ff 2d00ff17 
+	Data:	00ffff00 ffff00ff ff00ffff 00ffff00 
+	Data:	ffff00ff 0000ff00 00ff0000 ff0000ff 
+	Data:	0000ffff 00ffff00 fffe00ff ff00ffff 
+	Data:	00ff1400 ff0000ff ff00ffff 00ffff00 
+	Data:	ffff00ff ff00ffff 00ff0000 ff0000ff 
+	Data:	0000ff00 00ff0000 ff0600ff ff00ffff 
+	Data:	00fffe00 ffff00ff 1700ff00 00ffff00 
+	Data:	ffff00ff ff00ffff 00ffff00 ffff00ff 
+	Data:	0000ff00 00ffff00 ffff00ff ff00ffff 
+	Data:	00ff0000 ffff00ff ff00ffff 00ff1700 
+	Data:	ff0000ff ff00ffff 00ffff00 ffff00ff 
+	Data:	ff00ffff 00ff0000 ff0000ff ff00ffff 
+	Data:	00ffff00 ffff00ff 0000ff00 00ffff00 
+	Data:	ffff00ff 1700ff00 00ffff00 ffff00ff 
+	Data:	ff00ffff 00ffff00 ffff00ff 0000ff00 
+	Data:	00ffff00 ffff00ff ff00ffff 00ff0000 
+	Data:	ff0000ff ff00ffff 00ff1700 ff0000ff 
+	Data:	ff00ffff 00ffff00 ffff00ff ff00ffff 
+	Data:	00ff0000 ff0000ff ff00ffff 00ffff00 
+	Data:	ffff00ff 0000ff00 00ffff00 ffff00ff 
+	Data:	1700ff00 00ffff00 ffff00ff ff00ffff 
+	Data:	00ffff00 ffff00ff 0000ff00 00ffff00 
+	Data:	ffff00ff ff00ffff 00ff0000 ff0000ff 
+	Data:	ff00ffff 00ff1700 ff0000ff ff00ffff 
+	Data:	00ffff00 ffff00ff ff00ffff 00ff0000 
+	Data:	ff0000ff ff00ffff 00ffff00 ffff00ff 
+	Data:	0000ff00 00ffff00 ffff00ff 1700ff00 
+	Data:	00ffff00 ffff00ff ff00ffff 00ffff00 
+	Data:	ffff00ff 0000ff00 00ffff00 ffff00ff 
+	Data:	ff00ffff 00ff0000 ffff00ff ff00ffff 
+	Data:	00ff1700 ff0000ff 1000ff19 00ff1700 
+	Data:	ff1700ff 0000fff3 00ff0000 ff1300ff 
+	Data:	0000ff18 00ff1900 ff0000ff ff00ffff 
+	Data:	00ffff00 ffff00ff 0900ff00 00ff0000 
+	Data:	ff0000ff 0000ff00 00ff1900 fff400ff 
+	Data:	0000ff00 00ff0000 ff0000ff 0000ffff 
+	Data:	00ffff00 ffff00ff fe00ffff 00ffff00 
+	Data:	ffff00ff ff00ffff 00ffff00 ffff00ff 
+	Data:	ff00fffb 00ffff00 ffff00ff ff00ffff 
+	Data:	00ffff00 ffff00ff ff00fffe 00ffff00 
+	Data:	00ffff00 ffff00ff ff00ffff 00ffff00 
+	Data:	ffff00ff ff00ffff 00ffff00 ffff00ff 
+	Data:	ff00ffff 00ffff00 ffff00ff ff00ffff 
+	Data:	00ffff00 ffff8000 ff8000ff 8000ff80 
+	Data:	00ff8000 ff8000ff 8000ff80 00ff8000 
+	Data:	ff8000ff 8000ff80 00ff8000 ff8000ff 
+	Data:	8000ff80 00ff8000 ff8000ff ff8000ff 
+	Data:	ff00ff80 00ffff00 ff8000ff ff00ff80 
+	Data:	00ffff00 ff8000ff ff00ff80 00ffff00 
+	Data:	ff8000ff ff00ff80 00ffff00 ff8000ff 
+	Data:	ff001ebc 121ebc12 1ebc121e bc121ebc 
+	Data:	121ebc12 1ebc121e bc121ebc 121ebc12 
+	Data:	1ebc121e bc121ebc 121ebc12 1ebc121e 
+	Data:	bc121ebc 121ebc12 0000ff00 00ff0000 
+	Data:	ff0000ff 0000ff00 00ff0000 ff0000ff 
+	Data:	0000ff00 00ff0000 ff0000ff 0000ff00 
+	Data:	00ff0000 ff0000ff 0000ff00 00ff0000 
+	Data:	00000001 00180005 00180000 00000000 
+	Data:	00000000 0000
+)
+
+(Numb.11
+	N:	23.00000000000000
+)
+
+(List.12
+)
+
+(List.13
+)
+
+(Script.14
+	Name:	"new_linden"
+	SourceCode:	"' Name:  View.linden.ave\n' Description:  Calculates density of linear features like drainage, lineament, road, canal etc. \n' and then preapres a lineament density map of the studied feature.\n'\n' The script will first update the length of the linear feture in the attribute table and then \n' makes covering grid for the area. After that it calculates the length of linear features \n' present in each grid. Then it classifies the total area based on the frequency of linear \n' features present in each grid and ass
+igns certain classes which enables it to prepare the \n' lineament density map.\n'\n' ____________________________________________________________________________________________\n' Email: saraffes@rurkiu.ernet.in\n' ____________________________________________________________________________________________\n\n'PART 1********************************************************************************\n' Name:  View.CalculateFeatureGeometry\n' \n' Title:  Calculates feature geometry values\n'        \n' Topics:  GeoData\n'\n
+' Description:  Calculates area and perimeter for polygon themes and length \n' for line themes. If the View has been projected the calculations are in \n' projected meters. Otherwise the calculations are in 'native' map units.\n' Modify the script to provide calculation in the current report units of\n' the View. The script processes the list of active themes to calculate \n' area and perimeter, or length, depending on the theme type.\n'\n' The script will add the fields: Area and Perimeter to polygon themes, Len
+gth\n' to line themes if they do not exist. If the fields exist their values will \n' be recalculated. Rerun the script if you change the projection of the view.\n'\n' Requires:  A View with at least one active theme.  You must have write access\n' to the active theme(s).\n'\n' Self:\n'\n' Returns:\n\n'\n' Get the view and its projection if any.\n'\ntheView = av.GetActiveDoc\nthePrj = theView.  GetProjection\nif (thePrj.IsNull) then\n  hasPrj = false\nelse\n  hasPrj = true\nend\n \n'\n' Get the list of active themes. if there are
+n't any, let the user know\n' and exit.\n'\ntheActivethemeList = theView.GetActivethemes\nif (theActivethemeList.Count = 0) then\n  MsgBox.Error(\"No active themes.\",\"\")\n  Exit\nend\n\n'\n' Loop through the list of active themes. if you can't edit the theme\n' inform the user.\n'\nFor Each thetheme in theActivethemeList\n  theFTab = thetheme.GetFTab\n  if (theFTab.CanEdit.Not) then\n    MsgBox.Info(\"Cannot edit table for theme:\"++thetheme.AsString,\"\")\n    Continue\n  end\n  '\n  ' Make the FTAB editable, and find out which ty
+pe of feature it is.\n  '\n  theFTab.SetEditable(TRUE)\n  theType = theFTab.FindField(\"shape\").GetType\n  if (theType = #FIELD_SHAPEPOLY) then\n    '\n    ' if it's polygonal check for the existence of the fields \"Area\" and\n    ' Perimeter. if they do not exist, create them.\n    '\n    if (theFTab.FindField(\"Area\") = nil) then\n      theAreaField = Field.Make(\"Area\",#FIELD_DOUBLE,16,3)\n      theFTab.AddFields({theAreaField})\n    else\n      ok = MsgBox.YesNo(\"Update Area?\", \"Calculate\", true)\n      if (ok.Not) then\n
+        continue\n      end\n\n      theAreaField = theFTab.FindField(\"Area\")\n    end\n\n    if (theFTab.FindField(\"Perimeter\") = nil) then\n      thePerimeterField = Field.Make(\"Perimeter\",#FIELD_DOUBLE,16,3)\n      theFTab.AddFields({thePerimeterField})\n    else\n      ok = MsgBox.YesNo(\"Update Perimeter?\", \"Calculate\", true)\n      if (ok.Not) then\n        continue\n      end\n\n      thePerimeterField = theFTab.FindField(\"Perimeter\")\n    end\n    \n    '\n    ' Loop through the FTAB and find the projected area and per
+imeter of each \n    ' shape and set the field values appropriately.\n    '\n    theShape = theFTab.ReturnValue(theFTab.FindField(\"shape\"),0)\n    For Each rec in theFTab\n      theFTab.QueryShape(rec,thePrj,theShape)\n\n      theArea = theShape.ReturnArea\n      thePerimeter = theShape.ReturnLength\n\n      theFTab.SetValue(theAreaField,rec,theArea)\n      theFTab.SetValue(thePerimeterField,rec,thePerimeter)\n    end\n    \n  elseif (theType = #FIELD_SHAPELINE) then\n    '\n    ' if the data source is linear, check for th
+e existence of the \n    ' field \"Length\". if it doesn't exist, create it.\n    '\n    if (theFTab.FindField(\"Length\") = nil) then\n      theLengthField = Field.Make(\"Length\",#FIELD_DOUBLE,16,3)\n      theFTab.AddFields({theLengthField})\n\n    else\n      ok = MsgBox.YesNo(\"Update Length?\", \"Calculate\", true)\n      if (ok.Not) then\n        continue\n      end\n\n      theLengthField = theFTab.FindField(\"Length\")\n    end\n     \n    '\n    ' Loop through the FTAB and find the projected length of each shape and set\n    ' 
+the field values appropriately.\n    '   \n    theShape = theFTab.ReturnValue(theFTab.FindField(\"shape\"),0)\n    For Each rec in theFTab\n      theFTab.QueryShape(rec,thePrj,theShape)\n    \n      theLength = theShape.ReturnLength\n\n      theFTab.SetValue(theLengthField,rec,theLength)\n    end\n    \n  end \n\n  theFTab.SetEditable(FALSE)\nend\n\n\n'PART 2**************************************************************************************\n'__________________________________________________________________________________
+______________________________________________________________\n'________________________________________________________________________________________________________________________________________________\n'Name: CreateUserGrid.ave\n'Title: Make a user defined Grid as Shape file\n'Topics: View, Graphic(as polygon grid), Shape\n'Description: Creates a user-defined grid and then saves it as a shape file\n\n'This script\n'Requires: Corner coordinates of line theme\n'Returns: A new shapefile to the active view.\n\n'A
+uthor: Originally this script was developed by \n'Dax Wilson, however I have made some modification to it\n'Date: February 26, 2000\n'Email: saraffes@rurkiu.ernet.in\n\n'----------------------------------------------------------------------------\n\ntheProject= av.GetProject\ntheView= av.GetActiveDoc\n'~~~~~~~~~~\nthethemes=theview.getactivethemes\nfor each i in thethemes\ni.setactive(false)\nend \n'~~~~~~~~~~~~\nif (theView.Is(View).Not) then\n  Msgbox.error(\"The active document is not a View.\",\"ERROR\")\n  exit\nend\n\n'Set M
+ap Units to decimal degrees\ntheView.SetUnits(#Units_Linear_Degrees)\n\n'-------------------------------------------------------\n\n'Checking whether the boundary file exists\n\nx= msgbox.yesno(\"Do you have the boundary file?\",\"Checking for the boundary file\",true)\n\nif (x=true) then  'x=true\n\n'Checking whether the boundary file exists as a theme in the view\n\ny= msgbox.yesno(\"Does the boundary theme exists in this view?\",\"Checking for the boundary file in the present view\",true)\n\nif (y=false) then\n\n' View.Add\ntheVi
+ew = av.GetActiveDoc\nsrcnames = SourceDialog.Show(\"\")\nzoom = (theView.GetThemes.Count = 0)\nuseDD=TRUE\nisOther=FALSE\n\ntheBox=Rect.makexy(-200,-100,200,100)\nthemeList={}\nif (srcnames.count = 0) then\n  return(nil)\nend\n\nfor each n in srcnames\n  theTheme=Theme.Make(n)\n  theleg=thetheme.getlegend.clone\n  if (TheBox.contains(theTheme.returnextent).NOT) then\n    useDD=FALSE    \n  end\n  if (theTheme.Is(FTheme).Not) then\n    isOther=TRUE\n  end\n  theavlname=\" \"\n  if (n.getfilename<>NIL) then\n    if (n.getfilename.gete
+xtension<>\"\") then\n      theext=n.getfilename.asstring.right(4)\n      theAVLname=n.getfilename.asstring.substitute(theext,\".avl\")\n    else\n      aFN=n.getfilename\n      afn=aFN.asstring+\".avl\"\n      theAVLname=afn\n    end\n    if ((theTheme.is(FTheme)) and (file.exists(theAVLname.asfilename))) then\n      alinefile=textfile.make(theAVLname.asfilename,#FILE_PERM_READ)\n      asource=alinefile.read(alinefile.getsize)\n      alinefile.close\n      if ((asource.contains(\"LegExt\").Not) or (Extension.Find(\"Spatial Ana
+lyst\")<>NIL))then\n        theleg=theTheme.getlegend\n        theleg.load(theAVLname.asfilename,#LEGEND_LOADTYPE_ALL)\n        theflds=theleg.getfieldnames\n        for each afld in theflds\n          if (thetheme.getftab.findfield(afld)=NIL) then\n            thetheme.getlegend.setlegendtype(#LEGEND_TYPE_SIMPLE)\n            thetheme.getlegend.singlesymbol\n          end\n        end\n        if ((theflds.count=0) and (theleg.getlegendtype <>#LEGEND_TYPE_SIMPLE)) then\n          thetheme.getlegend.setlegendtype(#LEGE
+ND_TYPE_SIMPLE)\n          thetheme.getlegend.singlesymbol\n        end\n  \n      end\n    end      \n  end\n  theView.AddTheme(theTheme)\nend\n\n\n' Test if it is OK to set the Map Units to DD and then also set DistanceUnits to Miles (feet for StreetMap)\n'\nif ((theView.getUnits = #UNITS_LINEAR_UNKNOWN) and (useDD=TRUE)) then\n  theView.setUnits(#UNITS_LINEAR_DEGREES)\n  theView.getDisplay.setDistanceUnits(#UNITS_LINEAR_MILES)\n  theView.InvalidateTOC(theTheme)\nend\n\n' Test if the user added projected data into a project
+ed view\n'\nif ((theView.getProjection.isNull.NOT) and (useDD=FALSE)) then\n  if (isOther.Not) then\n    msgbox.warning(\"One or more of the data sources you have chosen is not\"++\n      \"in decimal degrees. This data can't be projected to match this\"++\n      \"view's projection. The theme(s) will be added but won't display properly.\",\n      \"Warning: input theme(s) cannot be projected\")\n  end\nend\n\nif ((theView.GetActiveThemes.Count = 0) and (srcnames.Count > 0)) then\n  theView.GetThemes.Get(0).SetActive(TRUE)\nend
+\n\nif (zoom) then\n  theThemes = theView.GetThemes\n  r = Rect.MakeEmpty\n  for each t in theThemes\n    r = r.UnionWith(t.ReturnExtent)\n  end\n  if (r.IsEmpty) then\n    return nil\n  elseif ((r.ReturnSize) = (0@0)) then\n    theView.GetDisplay.PanTo(r.ReturnOrigin)\n  else\n    theView.GetDisplay.SetExtent(r.Scale(1.1))\n  end\nend\n\nav.GetProject.SetModified( TRUE )\n\nelse 'if y=true\n\n'this is to select the boundary file theme\n\ntheView = av.getactivedoc\nthemelist=theView.getthemes\n\nSRCTheme=Msgbox.Choiceasstring(themel
+ist,\"Which theme is the boundary theme\",\"Boundary\")\nif (SRCTheme = NIL) then exit end\n\npolylist = list.make\nfor each atheme in themelist\n if (atheme.getftab.findfield(\"Shape\").gettype = #FIELD_SHAPEPOLY) then\n   polylist.add(atheme)\n   atheme.setactive(true)\n end\nend\nend 'y=false\n\n'-------\n'PART 2 a **************************************************************************************\n'Name : addullrxy.ave\n'Date : 10/07/2000\n'Author : Vincent Guissard\n\n'Adds Upper_Left and Lower_Right X,Y coordinates  of fe
+atures to Attribute Table \n' Description:  Adds 4 new fields, named ul_x, ul_y, lr_x and lr_y, to the table\n' of the first active theme in the TOC and fills the respective fields with\n' the X,Y ul/lr extent coordinates of the selected(s) features (or all features \n' if no selection is defined) theme.\n'\n' Requires:  An active feature theme. \n'\ntheView = av.GetActiveDoc\ntheTheme = theView.GetActiveThemes.Get(0)\n\n'get the theme table and current edit state\ntheFTab = theTheme.GetFTab\ntheFields = theFTab.GetFiel
+ds\nedit_state = theFTab.IsEditable\n\n'make sure table is editable and that fields can be added\nif (theFtab.CanEdit) then\n  theFTab.SetEditable(true)\n  if ((theFTab.CanAddFields).Not) then\n    MsgBox.Info(\"Can't add fields to the table.\"+NL+\"Check write permission.\",\n    \"Can't add X,Y coordinates\")\n    exit\n  end\nelse\n  MsgBox.Info(\"Can't modify the feature table.\"+NL+\n  \"Check write permission.\",\"Can't add X,Y coordinates\")\n  exit\nend\n\n'Check if fields named \"ul_x\", \"ul_y\", \"lr_x\" and \"lr_y\" exist\nulx_exist
+s = (theFTab.FindField(\"ul_x\") = NIL).Not\nuly_exists = (theFtab.FindField(\"ul_y\") = NIL).Not\nlrx_exists = (theFTab.FindField(\"lr_x\") = NIL).Not\nlry_exists = (theFTab.FindField(\"lr_y\") = NIL).Not\n'--------------------------\nif (ulx_exists or uly_exists or lrx_exists or lry_exists) then \n  if (MsgBox.YesNo(\"Overwrite existing fields?\",\n  \"upperleft/lowerright X/Y-coord fields already exist\", false)) then\n      'if ok to overwrite, delete the fields as they may not be defined\n    'as required by this script (e
+g., created from another script).\n    if (ulx_exists) then\n      theFTab.RemoveFields({theFTab.FindField(\"ul_x\")})\n    end\n    if (uly_exists) then\n      theFTab.RemoveFields({theFTab.FindField(\"ul_y\")})\n    end\n    if (lrx_exists) then\n      theFTab.RemoveFields({theFTab.FindField(\"lr_x\")})\n    end\n    if (lry_exists) then\n      theFTab.RemoveFields({theFTab.FindField(\"lr_y\")})\n    end\n   else\n    exit\n  end  'if (MsgBox...)\nend  'if\n'---------------------\nulx = Field.Make (\"ul_x\",#FIELD_DECIMAL,18,5)\nuly 
+= Field.Make (\"ul_y\",#FIELD_DECIMAL,18,5)\nlrx = Field.Make (\"lr_x\",#FIELD_DECIMAL,18,5)\nlry = Field.Make (\"lr_y\",#FIELD_DECIMAL,18,5)\ntheFTab.AddFields({ulx,uly,lrx,lry})\n\n'Get shape extent coordinates\n\n    theFTab.Calculate(\"[Shape].ReturnExtent.GetLeft\", ulx)\n    theFTab.Calculate(\"[Shape].ReturnExtent.GetTop\", uly)\n    theFTab.Calculate(\"[Shape].ReturnExtent.GetRight\", lrx)\n    theFTab.Calculate(\"[Shape].ReturnExtent.GetBottom\", lry)\n  \n'Return editing state to pre-script running state\n\ntheFTab.SetEditab
+le(edit_state)\nthefTab.GetSelection.SetAll\ntheftab.UpdateSelection\nav.GetProject.SetModified(true)\n\nthefield1= theftab.findfield(\"ul_x\")\nthefield2= theftab.findfield(\"ul_y\")\nthefield3= theftab.findfield(\"lr_x\")\nthefield4= theftab.findfield(\"lr_y\")\n\nfor each rec in theftab.getselection\n   val1= theftab.returnvalue(thefield1,rec)\n   val2= theftab.returnvalue(thefield2,rec)\n   val3= theftab.returnvalue(thefield3,rec)\n   val4= theftab.returnvalue(thefield4,rec)\nend\n\n'''modified by us****************************
+******************************************************************\n\n'Get graphics list\ntheGraphicList= theView.GetGraphics\n\n'Check to see if there are other graphics\nYesGListCheck=False\n\n'''modified by us**********************************************************************************************\n\n'Get boundary file parameters\ntheInputLabels= {\"Upper Latitude\",\"Left Longitude\",\"Lower Latitude\",\"Right Longitude\",\"Latitude Offset(in degree)\",\"Longitude Offset(in degree)\"}\ntheInputLabelsDefault= {val2.asstrin
+g,val1.asstring,val4.asstring,val3.asstring,\"\",\"\"}\ntheInputList= MsgBox.MultiInput(\"Enter in parameters...\",theView.GetName,theInputLabels,theInputLabelsDefault)\n\nif (theInputList.count=0) then\n  exit\nend\n\n'Extract boundary file parameters from list\n_startLat= theInputList.get(0).asNumber\n_startLon= theInputList.get(1).asNumber\n_endLat= theInputList.get(2).asNumber\n_endLon= theInputList.get(3).asNumber\n_LatOff= theInputList.get(4).asNumber\n_LonOff= theInputList.get(5).asNumber\n\nstartLat=_startLat\nstartLon=_
+startLon\nendLat=_endLat\nendLon=_endLon\nLatOff=_LatOff\nLonOff=_LonOff\n\ntheview=av.getactivedoc\nthethemes=theview.getactivethemes\nfor each i in thethemes\ni.setactive(false)\nend \n\nelse 'if boundary file does not exist\n\n'''modified by us**********************************************************************************************\n'Get graphics list\ntheGraphicList= theView.GetGraphics\n\n'Check to see if there are other graphics\nYesGListCheck=False\n\n'if (theGraphicList.count<>0) then\nyesnoGraphics=msgBox.YesNo(\"Is
+ it a new project?\",\"Checking...\", true)\nif (yesnoGraphics=True) then\n'''modified by us**********************************************************************************************\n\n'Get user-defined parameters\ntheInputLabels= {\"Upper Latitude\",\"Left Longitude\",\"Lower Latitude\",\"Right Longitude\",\"Latitude Offset(in degree)\",\"Longitude Offset(in degree)\"}\ntheInputLabelsDefault= {\"\",\"\",\"\",\"\",\"\",\"\"}\ntheInputList= MsgBox.MultiInput(\"Enter in parameters...\",theView.GetName,theInputLabels,theInputLabelsDefault)\n
+\nif (theInputList.count=0) then\n  exit\nend\n\n'Extract user-defined parameters from list\n_startLat= theInputList.get(0).asNumber\n_startLon= theInputList.get(1).asNumber\n_endLat= theInputList.get(2).asNumber\n_endLon= theInputList.get(3).asNumber\n_LatOff= theInputList.get(4).asNumber\n_LonOff= theInputList.get(5).asNumber\n\n'''modified by us**********************************************************************************************\nstartLat=_startLat\nstartLon=_startLon\nendLat=_endLat\nendLon=_endLon\nLatOff=_LatO
+ff\nLonOff=_LonOff\n\nelseif (yesnoGraphics=False) then\n'Get the previously declared parameters\ntheInputLabels= {\"Upper Latitude\",\"Left Longitude\",\"Lower Latitude\",\"Right Longitude\",\"Latitude Offset(in degree)\",\"Longitude Offset(in degree)\"}\ntheInputLabelsDefault= {_startLat.asString,_startLon.asString,_endLat.asString,_endLon.asString,_LatOff.asString,_LonOff.asString}\ntheInputList= MsgBox.MultiInput(\"Enter in parameters...\",theView.GetName,theInputLabels,theInputLabelsDefault)\n\n_startLat= theInputList.get(0)
+.asNumber\n_startLon= theInputList.get(1).asNumber\n_endLat= theInputList.get(2).asNumber\n_endLon= theInputList.get(3).asNumber\n_LatOff= theInputList.get(4).asNumber\n_LonOff= theInputList.get(5).asNumber\n\nstartLat=_startLat\nstartLon=_startLon\nendLat=_endLat\nendLon=_endLon\nLatOff=_LatOff\nLonOff=_LonOff\nend\nend\n'''modified by us**********************************************************************************************\n\n'Defining the number of blocks X@Y\nXblocks= (startLon - endLon / LonOff).Abs\nYblocks= (sta
+rtLat - endLat / LatOff).Abs\nXblocks.Truncate\nYblocks.Truncate\n\n'Get graphics list\ntheGraphicList= theView.GetGraphics\n\n'Check to see if there are other graphics\nYesGListCheck=False\n\nif (theGraphicList.count<>0) then\n  yesnocancelGraphics= MsgBox.YesNoCancel(\"There are graphics in the view. Do you want to save the graphics? YES to save and NO to delete.\",\n                                          theView.GetName,True)\n  if (yesnocancelGraphics=True) then\n    theYesGList=theView.GetGraphics\n    theYesGList.S
+electAll\n    theYesGList.CutSelected\n    YesGListCheck= True\n    theGraphicList.Empty\n  elseif (yesnocancelGraphics=False) then\n    theGraphicList.Empty\n  elseif (yesnocancelGraphics=Nil) then\n    exit\n  end\nend\n\n'Sets the ShowMsg and Status\nav.ShowMsg(\"Drawing the Grid...\")\n'av.SetStatus(0)\nTotalBlocks=Xblocks*Yblocks\n'BlockCounter=0\n\n'Set the Lat offset variable to negative\nLatOff= LatOff-(2*LatOff)\n\n'Drawing the grid\nfor each Y in 1 .. Yblocks\n  gridLat= (startLat+(LatOff*(Y-1)))\n  for each X in 1 .. Xbl
+ocks\n    gridLon= (startLon+(LonOff*(X-1)))\n    theRectGraphic= GraphicShape.Make(Rect.Make(gridLon@gridLat , LonOff@LatOff))\n    theGraphicList.Add(theRectGraphic)\n    'I took this out because it made it run slow\n    'BlockCounter=BlockCounter+1\n    'av.SetStatus((BlockCounter/TotalBlocks)*100)\n  end\nend\n\n'Clears ShowMsg and Status\nav.ClearMsg\n'av.ClearStatus\n\n'Create a new shape file name\nFName= theProject.MakeFileName(\"grid\",\"shp\")\nFName= FileDialog.Put(FName, \"*.shp\", \"New Theme\")\n\nif (FName=Nil) then\n 
+ Return Nil\nend\n\n'Make a new table\ntheTable= FTab.MakeNew(FName, Polygon)\ntheIDField= Field.Make(\"id\", #Field_Long, 6,0)\ntheIDField.setVisible(True)\ntheLatitudeField= Field.Make(\"Upr_Lat\",#Field_Double,8,5)\ntheLatitudeField.setVisible(True)\ntheLongitudeField= Field.Make(\"Lft_Lon\",#Field_Double,8,5)\ntheLongitudeField.setVisible(True)\ntheTagField= Field.Make(\"Tag\",#Field_Logical,0,0)\ntheTagField.setVisible(True)\n\ntheTable.AddFields({theIDField,theLatitudeField,theLongitudeField,theTagField})\ntheTable.setEdita
+ble(False)\n\ntheNewTheme= FTheme.Make(theTable)\ntheNewFtab= theNewTheme.getFtab\ntheNewShapeField= theNewFtab.FindField(\"Shape\")\ntheView.AddTheme(theNewTheme)\n'theNewTheme.setactive(true)\ntheNewTheme.setVisible(True)\ntheView.setEditableTheme(theNewTheme)\nav.GetProject.SetModified(True)\n\n'Sets the ShowMsg and Status\nav.ShowMsg(\"Converting the Grid to a shape file...\")\nav.SetStatus(0)\n\n'Load the new theme table\ntheIDCounter= 0\n\nfor each Shp in theGraphicList\n  theIDCounter= theIDCounter + 1\n  \n  theShape= Shp.g
+etShape\n  \n  theNewRec= theNewFtab.AddRecord\n  thePolygon= theShape.asPolygon\n  theNewFtab.SetValue(theNewShapeField,theNewRec,thePolygon)\n  theNewFtab.SetValueNumber(theIDField,theNewRec,theIDCounter)\n  theNewFtab.SetValue(theTagField,theNewRec,False)\n  theNewFtab.SetValue(theLatitudeField,theNewRec,theShape.GetTop)\n  theNewFtab.SetValue(theLongitudeField,theNewRec,theShape.GetLeft)\n  av.SetStatus((theIDCounter/TotalBlocks)*100)\nend\n\n'Clears the ShowMsg and Status\nav.ClearMsg\nav.ClearStatus\n\ntheNewFtab.Set
+Editable(False)\ntheTable.SetEditable(False)\n\n'Set the new Grid foreground color to transparent\n'theNewGridTheme= theView.FindTheme(FName.GetBaseName)\ntheNewGridTheme= theView.GetThemes.Get(0)\ntheGridLegend= theNewGridTheme.GetLegend\ntheGridSyms=theGridLegend.GetSymbols\nthePalette= av.GetSymbolWin.GetPalette\ntheColors= thePalette.GetList(#Palette_List_Color)\ntheGridSyms.Get(0).SetColor(theColors.Get(0))\n\ntheGraphicList.Empty\ntheGraphicList.Invalidate\n\n'Replace original graphics\nif (YesGListCheck= True) then\n
+  theYesGList.Paste\n  theYesGList.UnselectAll\nend\n\n'PART 3********************************************************************************\n\n'*****************************************************\n'Now intersect line theme with newly created grid theme\n' Name:  View.IntersectThemes\n'\n' Title:  Performs an intersection of two themes\n'\n' Topics:  GeoData, Analysis \n'\n' Description:  This computes the intersection shapefile from 2 themes:\n' an intersection theme (poly or line) and a overlay theme (poly).  The\n' 
+output file has all the attributes of both themes for each intersection.\n' Modeled after the ARC/INFO Intersection command.\n'\n' Requires:  \n'\n' Self:  \n'\n' Returns:  \n' \n\ntheView = av.getactivedoc\ntheActThemes = theView.getthemes\n if (nil = theActThemes) then exit end\nif (theActThemes.count < 2) then \n  msgbox.error(\"At least 2 themes in the View\",\"Error\")\n  exit\nend\n\nthemelist=theView.getthemes\n\nSRCTheme=Msgbox.Choiceasstring(themelist,\"Which theme is the intersect theme\",\"Intersect\")\nif (SRCTheme = NIL) t
+hen exit end\n\npolylist = list.make\nfor each atheme in themelist\n if (atheme.getftab.findfield(\"Shape\").gettype = #FIELD_SHAPEPOLY) then\n   polylist.add(atheme)\n end\nend\n\ninterTheme=Msgbox.Choiceasstring(polylist,\"Which polygon theme is the overlay theme\",\"Intersect\")\nif (interTheme = NIL) then exit end\n\n' Specify the output shapefile...\noutFName = av.GetProject.MakeFileName(\"intsct\", \"shp\")\noutFName = FileDialog.Put(outFName, \"*.shp\", \"Output Merged Shapefile\")\nif (outFName = Nil) then\n  exit\nend\n  \nshapeTy
+pe = SRCTheme.GetFTab.FindField(\"Shape\").GetType\n\nif (shapeType = #FIELD_SHAPELINE) then \n  outClass = POLYLINE\nelseif (shapeType = #FIELD_SHAPEMULTIPOINT) then\n  outClass = MULTIPOINT\nelseif (shapeType = #FIELD_SHAPEPOINT) then\n  outClass = POINT\nelseif (shapeType = #FIELD_SHAPEPOLY) then\n  outClass = POLYGON\nelse\n  MsgBox.Error(\"Invalid shape field type.\", \"Merge Themes\")\n  exit\nend\n\n'-------------------------------------------------------\n'Set the variables\n'----------------------------------------------
+---------\nOutputFTab = FTab.MakeNew( outFName, outClass )\n\nSRCfields = List.Make\nInterFields = List.Make\n\nfor each f in SRCTheme.GetFTab.GetFields\n  if (f.GetName = \"Shape\") then\n    continue\n  else \n    fCopy = f.Clone\n    SRCfields.Add(fCopy)\n  end\nend\n\ninterfieldlist=list.make\n\nfor each f in interTheme.GetFTab.GetFields\n  if (f.GetName = \"Shape\") then\n    continue\n  else \n    fCopy = f.Clone\n    dCopy = F.Clone\n    for each thefield in SRCfields\n      if (thefield.getname = fcopy.getname) then\n         i
+f (fcopy.getname.count > 7) then\n           fcopy.setname((fcopy.getname.right(fcopy.getname.count - 1))+\"b\")\n         else\n           fcopy.setname(fcopy.getname+\"b\")\n         end\n         \n      end\n    end\n    interFields.Add(fCopy)\n    interfieldList.add({fCopy,dCopy})\n  end\nend\n\n'-------------------------------------------------------\n'add the fields to the output file\n'-------------------------------------------------------\nif (SRCFields.Count > 0) then\n OutputFTab.AddFields( SRCFields )\nend\n\nif (Inte
+rFields.Count > 0) then\n OutputFTab.AddFields( InterFields )\nend\n\noutshpfld = OutputFtab.findfield(\"Shape\")\n\nTheme1 = SRCTheme\nftab1=Theme1.getftab\nshpfld1=ftab1.findfield(\"Shape\")\ntherecs1 = ftab1.getselection\ntheoldsel = ftab1.getselection.clone\n \n if (therecs1.count=0) then\n   therecs1=ftab1\n end\n\nTheme2 = InterTheme\nftab2=Theme2.getFtab\nshpfld2=ftab2.findfield(\"Shape\")\ntherecs2 = ftab2.getselection\n\n if (therecs2.count=0) then\n   therecs2=ftab2\n end\nOutputFtab.seteditable(False)\nOutputFtab.seteditable(T
+rue)\n\nacount=0    'A counter variable\n\n'-----------------------------------------------------\n'-------------------------------------------------------\n'Start processing each record in the selected overaly polys\n'-------------------------------------------------------\n\nfor each arec2 in therecs2\n\n 'get the polygon shape and select all records within that shape\n theSRCshape = ftab2.returnvalue(shpfld2,arec2)\n if (theView.getprojection.isNull) then\n  Theme1.SelectbyShapes({theSRCshape}, #VTAB_SELTYPE_NEW)\n els
+e\n  pshp=theSRCShape.returnProjected(theView.getprojection)\n  Theme1.SelectbyShapes({pshp}, #VTAB_SELTYPE_NEW)\n end\n\n 'For each selected record \n  recordcount = 0       \n \n  for each Selrec in ftab1.getselection\n    recordcount=recordcount +1\n\n    av.showmsg(\"Spliting Shapes...\")\n    av.setstatus((recordCount / ftab1.getselection.count) * 100)\n    \n    'Get the shape of the record\n     \n    SelectedShape = ftab1.returnvalue(shpfld1,Selrec)\n    \n    'If the output is a line\n\n    if (outshpfld.getType = #FIEL
+D_SHAPELINE) then\n     \n      'If the line is wholely within the polygin (no intersection) then\n       if (SelectedShape.iscontainedin(theSRCShape)) then\n         alineshp = SelectedShape\n \n       else         'Else split the line using the polygon\n          alineshp = SelectedShape.LineIntersection(theSRCshape)\n       end\n\n        'Add the new record \n         theoutrec=outputftab.addrecord\n        'Set the shape value\n         outputFtab.SetValue(outshpfld,theoutrec,alineshp)\n\n        'Set the field value
+s             \n         for each afield in SRCfields\n           oldfield=ftab1.findfield(afield.getname)\n           oldvalue=ftab1.returnvalue(oldfield,selrec)\n           outputftab.setValue(afield, theoutrec, oldvalue)\n         end\n\n        'Set the field values      \n         for each afield in InterfieldList\n           oldfield=ftab2.findfield((afield.get(1).getname))\n           oldvalue=ftab2.returnvalue(oldfield,arec2)\n           outputftab.setValue(afield.get(0), theoutrec, oldvalue)\n         end\n \n  
+           \n    else  'This enters into the polygon loop\n         \n     shpIntersect = SelectedShape.ReturnIntersection(theSRCshape)\n                  \n     if (shpintersect.isempty) then \n       continue \n     end\n  \n     theoutrec=outputftab.addrecord\n     outputFtab.SetValue(outshpfld,theoutrec,shpIntersect)\n     \n     \n     for each afield in SRCfields\n       oldfield=ftab1.findfield((afield.getname))\n       oldvalue=ftab1.returnvalue(oldfield,selrec)\n       outputftab.setValue(afield, theoutrec, oldval
+ue)\n     end\n     \n     for each afield in InterfieldList\n       oldfield=ftab2.findfield((afield.get(1).getname))\n       oldvalue=ftab2.returnvalue(oldfield,arec2)\n       outputftab.setValue(afield.get(0), theoutrec, oldvalue)\n     end\n   \n    end 'if its poly or line\n   av.purgeobjects\n   end  'end for each selected record\nend 'ends the for each on arec1\n\n'Set editing OFF\n\nOutputftab.seteditable(false)\n\n' Reset the initial selection to the Ftab1\nftab1.setselection(theoldsel)\nftab1.updateselection\n\nif (Msg
+Box.YesNo(\"Add shapefile as theme to a view?\",\n  \"Intersection\", true).Not) then \n  exit \nend\n\n' Create a list of views and allow the user to choose which view to\n' add the new theme to... \n\nviewList = {}\nfor each d in av.GetProject.GetDocs\n  if (d.Is(View)) then\n    viewList.Add( d )\n  end\nend\n  \n' Include a choice for a new view...\nviewList.Add(\"<New View>\")\n  \naddToView = MsgBox.ListAsString( viewList,\"Add Theme to:\", \"Intersection\" ) \n  \n' Get the specified view, make the theme, and add it...\nif (addToV
+iew <> nil) then\n\n  if (addToView = \"<New View>\") then\n    addToView = View.Make\n    addToView.GetWin.Open\n  end\n  \n  mergeTheme = FTheme.Make( OutputFTab )\n  addToView.AddTheme( mergeTheme )\n  mergeTheme.setactive(true)\n  ' Bring the View to the front...\n  addToView.GetWin.Activate\n\nend\n\nav.purgeobjects\n'~~~~~~\ntheView = av.GetActiveDoc\nfor each t in theView.GetActiveThemes\n  if (t.HasTable) then\n    t.EditTable\n  end\nend\n'~~~~~~~~~~~\n'~~~~~~~~~~\ntheproject= av.getproject\nthetable = av.getactivedoc\nmyvtab=
+ thetable.getvtab\nmyfield= myvtab.findfield(\"id\")\nthetable.setactivefield(myfield)\n'~~~~~~~~~~\n'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nmsgbox.info(\"Select LENGTH from the FIELD-pulldown and SUM from the SUMMARIZE BY-pulldown & then press ADD button\", \"Lineament Density Analyst\")\ntheTable = av.GetActiveDoc\ntheVTab = SummaryDialog.Show(theTable.GetVTab, theTable.GetActiveField)\nif (theVTab=Nil) then\n  return nil\nend\n\n'the VTab contains a shape field if Merge was one of the operations\nif (theVTab.
+Is(FTab)) then\n  'make a list of views\n  dl = {} \n  for each d in av.GetProject.GetDocs\n    if (d.Is(View)) then\n      dl.Add(d)\n    end\n  end\n\n  'provide a choice for a new view\n  dl.Add(\"<New View>\")\n  theView = MsgBox.ListAsString(dl,\"Add Theme to:\", \"Summarize\")\n\n  if (theView <> nil) then\n    if (theView = \"<New View>\") then\n      theView = View.Make\n      theView.GetWin.Open\n    end\n\n   'create a theme and add it to the specified View\n    fthm = FTheme.Make(theVTab)\n    theView.AddTheme(fthm)\n    'dis
+play the table of attributes\n    fthm.EditTable\n    'but make the view the active window\n    theView.GetWin.Activate\n  end\n\nelse\n  \n  'this is to close the intsct* table\n  thetable.getwin.close\n  \n  'no merge, so plain tabular summarization\n  newTable = Table.Make(theVTab)\n  newTable.SetName(theVTab.GetName)\n  newTable.GetWin.Open\n  \n  'this is to highlight the \"id\" field of sum* table\n  newtable.GetWin.Activate  \n  newtable1=newtable.getvtab\n  newfield1=newtable1.findfield(\"id\")\n  newtable.setactivefield(n
+ewfield1)\nend\n\n'this is to make active the grid* theme\n\ndl={}\nfor each d in av.getproject.getdocs\n  if (d.is(View)) then\n    dl.add(d)\n    d.getwin.activate\n    end\nend\n \ntheView = av.getactivedoc\ntheActThemes = theView.getthemes\n\nif (theActThemes<>nil) then \n  for each t in theActThemes\n    t.setactive(false)\n  end\nelse\n  exit\nend\n\nif (theActThemes.count < 2) then \n  msgbox.error(\"At least 2 themes in the View are required\",\"Error\")\n  exit\nend\n\nthemelist=theView.getthemes\n\nSRCTheme=Msgbox.Choiceasstring(th
+emelist,\"Select the grid theme you want to make active\",\"Theme Activate\")\nif (SRCTheme = NIL) then exit\n  \nelse \n  varia=SRCTheme.asstring\n  theView = av.getactivedoc\n  theActThemes = theView.getthemes\n\n  for each t in theActThemes\n   if (t.asstring=varia) then\n     t.SetActive (true)\n     \n     if (t.hastable) then\n       t.edittable\n     end\n\n   end \n    \n  end\n  \n  theproject=av.getproject\n  thetable=av.getactivedoc\n  myvtab=thetable.getvtab\n  myfield=myvtab.findfield(\"id\")\n  thetable.setactivefield(myfi
+eld)\n  \n  'this is to make the join between two tables\n  'from sum* table to grid* table through id field\n  myvtab.Join (myfield, newtable1, newfield1)\nend\n\n'to close the tables\nthetable.getwin.close\nnewtable.getwin.close\n\n'to open the legend editor\ntheView = av.getactivedoc\n  theActThemes = theView.getthemes\nfor each t in theActThemes\n   if (t.asstring=varia) then\n     t.SetActive (true)\n     t.editLegend\n     msgbox.info(\"Change the Legend Type to GRADUATED COLOUR & Define the Classification Field as SUM_
+LENGTH\", \"Lineament Density Analyst\")\n   end\nend\n'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~END OF THE SCRIPT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n"
+)
+
+(Script.15
+	Name:	"My Extension Install"
+	SourceCode:	"'DO NOT EDIT!!!\n\nif (av.getproject=nil) then return(nil) end\n\n\ntheDocs = SELF.get(0)\ntheControlList = SELF.get(1)\ntheMenuList = SELF.get(2)\ntheToolMenuList=SELF.Get(3)\ntheProject=Av.getproject\n\n\n'Add the Docs\n'\nfor each adoc in theDocs\n theProject.addDoc(adoc)\nend\n\n'Add the Controls\n'\nfor each totalControl in theControlList\n   'The Control list\n   acontrol=totalControl.get(0)\n   \n   'The physical control\n   theControl = totalControl.get(1)\n   \n   'The control Index\n   theCindex=totalControl.get(2)\n\n   'Find
+ the DocGUI\n   theControlDoc=av.getproject.findGUI(aControl.get(0))\n     if (theControlDoc=NIL) then   \n       MsgBox.Warning(\"The GUI \"+aControl.get(0)+\" cannot be found in the current project.\",\"Script Eror\")\n       return(nil)\n     end\n   \n   'This finds the control set  \n  thecommand=\"av.getproject.findGUI(\"\"\"+aControl.get(0)+\"\"\").Get\"+acontrol.get(1)\n  thescript1=Script.Make(thecommand)\n  thecontrolset=thescript1.doit(\"\")\n  \n  'Add the control to the control set\n  theControlSet.Add(theControl,theCindex
+)\nend\n\n\n'Add the menus\nfor each totalcontrol in theMenuList\n  \n   'The Control list\n   acontrol=totalControl.get(0)\n      mDoc=acontrol.get(0)\n      mMenu=acontrol.get(1)\n      mMenuItem=acontrol.get(2)\n\n   'The physical control\n   theControl = totalControl.get(1)\n   \n   'The control Index\n   theCindex=totalControl.get(2)\n\n   'Find the DocGUI\n   theControlDoc=av.getproject.findGUI(aControl.get(0))\n     if (theControlDoc=NIL) then   \n       MsgBox.Warning(\"The GUI \"+aControl.get(0)+\" cannot be found in the c
+urrent project.\",\"Script Eror\")\n       return(nil)\n     end\n   \n  theMbar=av.getproject.findGUI(mDoc).GetMenuBar\n  themenu=theMbar.findbylabel(mMenu)\n  if (themenu=NiL) then\n      themenu=menu.make\n      themenu.setlabel(mMenu)\n      theMbar.add(themenu,999)\n  end\n  \n  themenu.add(thecontrol, theCindex)\nend\n   \n   \n'Add the Tool Menus\n\nfor each totalControl in theToolMenuList\n   'The Control list\n   acontrol=totalControl.get(0)\n   \n   'The physical control\n   theControl = totalControl.get(1)\n   \n   'The con
+trol Index\n   theCindex=totalControl.get(2)\n\n   'Find the DocGUI\n   theControlDoc=av.getproject.findGUI(aControl.get(0))\n     if (theControlDoc=NIL) then   \n       MsgBox.Warning(\"The GUI \"+aControl.get(0)+\" cannot be found in the current project.\",\"Script Eror\")\n       return(nil)\n     end\n   \n   'This finds the control set  \n  thecommand=\"av.getproject.findGUI(\"\"\"+aControl.get(0)+\"\"\").Get\"+acontrol.get(1)\n  thescript1=Script.Make(thecommand)\n  thecontrolset=av.getproject.findGUI(aControl.get(0)).GetToolBa
+r\n  \n  'Add the control to the control set\n  theControlSet.Add(theControl,theCindex)\nend\n\n\nav.getproject.setmodified(true)\n\n\n'And the scripts add themselves\n"
+)
+
+(Script.16
+	Name:	"My Extension Uninstall"
+	SourceCode:	"'DO NOT EDIT!!!\n\n'The SELF is the Extension\n\ntheDocs = SELF.get(0)\ntheControlList = SELF.get(1)\ntheMenuList = SELF.get(2)\ntheToolMenuList=SELF.get(3)\ntheProject=Av.getproject\n\n\n'Add the Docs\n'\nfor each adoc in theDocs\n If (theProject.finddoc(adoc.getname)<>NIL) then \n  theAnswer=msgbox.yesno(\"Remove the Document \"+adoc.getname+\"?\",\"Remove Document?\",TRUE)\n  if (theAnswer=TRUE) then theProject.RemoveDoc(adoc) end\n end\nend\n\n'Removethe Controls\n'\nfor each totalControl in theControlList\n   'Get the control list
+ from the Ext\n   acontrol=totalControl.get(0)\n   \n   'Get the physical Control\n   theControl = totalControl.get(1)\n   \n   'Get the Controls Index\n   theCindex=totalControl.get(2)\n\n   'Find the DocGUI for the Control\n   theControlDoc=av.getproject.findGUI(aControl.get(0))\n     if (theControlDoc=NIL) then   \n       MsgBox.Warning(\"The GUI \"+aControl.get(0)+\" cannot be found in the current project.\",\"Script Eror\")\n       return(nil)\n     end\n   \n   'This sequence finds the appropiate control set\n   thecommand=
+\"av.getproject.findGUI(\"\"\"+aControl.get(0)+\"\"\").Get\"+acontrol.get(1)\n   thescript1=Script.Make(thecommand)\n   thecontrolset=thescript1.doit(\"\")\n\n   'See if the control is in the set , if so remove it\n    if (theControlSet.GetControls.find(theControl)<>NIL) then\n      theControlSet.remove(theControl)\n      if (thecontrol = \"ToolBar\") then\n        theControlSet.selectdefault\n      end\n    end\nend\n\n\n'Remove the Menus\n'\nfor each totalcontrol in theMenuList\n  \n   'The Control list\n    acontrol=totalControl.get(0
+)\n      mDoc=acontrol.get(0)\n      mMenu=acontrol.get(1)\n      mMenuItem=acontrol.get(2)\n\n   'The physical control\n   theControl = totalControl.get(1)\n   \n   'The control Index\n   theCindex=totalControl.get(2)\n\n   'Find the DocGUI\n   theControlDoc=av.getproject.findGUI(aControl.get(0))\n     if (theControlDoc=NIL) then   \n       MsgBox.Warning(\"The GUI \"+aControl.get(0)+\" cannot be found in the current project.\",\"Script Eror\")\n       return(nil)\n     end\n   \n  theMbar=av.getproject.findGUI(mDoc).GetMenuBar\n 
+ themenu=theMbar.findbylabel(mMenu)\n  if (themenu=NiL) then\n       MsgBox.Warning(\"The menu named \"+mMenu+\" is not here.\",\"Script Eror\")\n      'return(nil)\n  else\n  \n    thething=themenu.getcontrols.find(thecontrol)\n    if (thething<>NIL) then \n      themenu.remove(thecontrol) \n    end\n    'msgbox.info(themenu.GetControls.count.asstring,\"\")\n    if (themenu.GetControls.count<1) then\n      theMbar.remove(themenu)\n    end\n  end\nend\n   \nfor each totalControl in theToolMenuList\n   'Get the control list from the 
+Ext\n   acontrol=totalControl.get(0)\n   \n   'Get the physical Control\n   theControl = totalControl.get(1)\n   \n   'Get the Controls Index\n   theCindex=totalControl.get(2)\n\n   'Find the DocGUI for the Control\n   theControlDoc=av.getproject.findGUI(aControl.get(0))\n     if (theControlDoc=NIL) then   \n       MsgBox.Warning(\"The GUI \"+aControl.get(0)+\" cannot be found in the current project.\",\"Script Eror\")\n       return(nil)\n     end\n   \n   'This sequence finds the appropiate control set\n   thecontrolset=av.getp
+roject.findGUI(aControl.get(0)).GetToolBar\n\n \n    'See if the control is in the set , if so remove it\n    if (theControlSet.GetControls.find(theControl)<>NIL) then\n \n      theControlSet.remove(theControl)\n      theControlSet.selectdefault\n    end\n\nend\n   \n\n'And the scripts delete themselves\n\n\nav.getproject.setmodified(true)\n"
+)
+
